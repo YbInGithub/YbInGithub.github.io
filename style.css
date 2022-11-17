@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 清除浮动 */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    width: 1200px;
+    height: 42px;
+    /* background-color: rgb(249, 215, 221); */
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 195px;
+    height: 42px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    float: left;
+    margin-left: 50px;
+}
+
+.nav ul li {
+    float: left;
+    height: 40px;
+    margin: 0px 10px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0px 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.nav ul li a:hover {
+    border-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #00a4ff;
+    color: #00a4ff;
+}
+
+
+/* 搜索模块 */
+
+.search {
+    float: left;
+    margin-left: 50px;
+    width: 410px;
+    height: 42px;
+    line-height: 42px;
+    background-color: rgb(191, 222, 212);
+}
+
+.search input {
+    float: left;
+    width: 360px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0px;
+    color: #bfbfbf;
+    font-size: 16px;
+}
+
+.search button {
+    display: block;
+    float: left;
+    height: 42px;
+    width: 48.9px;
+    /* 按钮含有默认的边框 */
+    border: 0px;
+    /* 行内块元素中间有缝隙 -- 默认不能消除*/
+    color: #00a4ff;
+    background-image: url(images/browse1_03.png);
+}
+
+.user {
+    float: right;
+    height: 30px;
+    margin-right: 50px;
+    line-height: 32px;
+}
+
+.user .image {
+    vertical-align: middle;
+    padding: 6px 0px;
+}
+
+
+/* banner 区域 */
+
+.banner {
+    height: 421px;
+    background-color: #333366;
+}
+
+.banner .w {
+    height: 421px;
+    width: 1200px;
+    background: url(images/banner2.png) no-repeat top center;
+}
+
+.banner .subnav {
+    float: left;
+    width: 190px;
+    height: 421px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner .subnav ul li {
+    height: 46.7px;
+    text-indent: 2em;
+    line-height: 46px;
+}
+
+.banner .subnav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner .subnav ul li a:hover {
+    color: #a3c7db;
+}
+
+.banner .course {
+    float: right;
+    margin: 50px 0px;
+    width: 230px;
+    height: 300px;
+    background-color: white;
+}
+
+.banner h2 {
+    width: 230px;
+    height: 48px;
+    font: 17px;
+    color: #ffffff;
+    line-height: 48px;
+    text-align: center;
+    background-color: #9bceea;
+}
+
+.course .bd ul li {
+    height: 39px;
+    text-indent: 2em;
+    padding: 14px 0px;
+}
+
+.course .bd ul li:hover {
+    border-bottom: 0.7px #7d7d7d dashed;
+}
+
+.course .bd ul li h4 {
+    font-family: 700;
+    color: #7d7d7d;
+}
+
+.course .bd ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.course .bd a {
+    display: block;
+    margin: 5px 14px 8px 14px;
+    height: 38px;
+    width: 200px;
+    border: 1px solid #00a4ff;
+    background-color: #fefafa;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: 700;
+    color: #00a4ff;
+}
+
+
+/* 3 */
+
+.goods {
+    height: 60px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.goods h2 {
+    float: left;
+    width: 127px;
+    height: 60px;
+    color: #00a4ff;
+    font-family: 700;
+}
+
+.goods ul li {
+    float: left;
+    width: 127px;
+    height: 60px;
+    font-family: "微软雅黑";
+}
+
+.goods h3 {
+    float: right;
+    width: 110px;
+    height: 60px;
+    font-size: 15px;
+    text-align: center;
+    color: #00a4ff;
+}
+
+
+/* 精品推荐 */
+
+.box {
+    margin-top: 10px;
+    width: 1200px;
+    height: 660px;
+}
+
+.hd {
+    color: #7d7d7d;
+    border-bottom: 0.3px solid white;
+}
+
+.box .hd h3 {
+    float: left;
+    margin-left: 20px;
+    height: 50px;
+    width: 1050px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.box .hd a {
+    display: block;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.box .hd a:hover {
+    color: red;
+}
+
+
+/* 如果不想换行直接将父类元素得到宽度修改的足够宽，就不用修改 li 的右外边距 */
+
+.box ul {
+    width: 1230px;
+}
+
+.box-bd ul li {
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #e1e7ea;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+/* 因为222 所以这三行可以不要 */
+
+.box-bd .noright {
+    margin-right: 0px;
+}
+
+.box-bd ul li img {
+    width: 100%;
+}
+
+.box-bd ul li h4 {
+    display: block;
+    width: 190px;
+    height: 35px;
+    padding: 16px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: 400;
+    color: #050505;
+}
+
+.box-bd ul li div {
+    width: 190px;
+    font-size: 12px;
+    padding: 14px;
+    color: #999;
+}
+
+.box ul li div span {
+    color: #ffa57b;
+}
+
+.zhong {
+    background-color: #f3f5f7;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.footer {
+    width: 100%;
+    height: 420px;
+    background-color: #ffffff;
+}
+
+.footer .xin {
+    width: 1200px;
+    height: 420px;
+    margin: 0px auto;
+    padding: 20px 20px;
+}
+
+.xin .l {
+    float: left;
+    width: 430px;
+}
+
+.xin .l img {
+    display: block;
+    width: 200px;
+    height: 47px;
+}
+
+.xin .l h3 {
+    width: 430px;
+    height: 30px;
+    margin-top: 15px;
+    font-family: 400;
+    font-size: 12px;
+    color: #666666;
+}
+
+.xin .l a {
+    display: block;
+    width: 120px;
+    height: 36px;
+    margin-top: 15px;
+    border: 1px solid #00a4ff;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #00a4ff;
+}
+
+.xin .r {
+    float: right;
+    height: 130px;
+    padding: 25px;
+}
+
+.r dl {
+    float: left;
+    margin-right: 130px;
+    ;
+}
+
+.r dl dt {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #6e6e6e;
+}
+
+.r dl dd {
+    margin-bottom: 6px;
+    font-size: 12px;
+    color: #333333;
+}
+
+.r dl dd a {
+    color: #666666;
+}
